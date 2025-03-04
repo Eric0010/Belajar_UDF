@@ -210,6 +210,8 @@ public class GeoLookupBatchUDF {
 }
 ```
 
+NOTE: Nama Package dan nama GroupId harus memiliki nama yang sama.
+
 Setlah file tersebut masing - masing disimpan di dalam folder yang sudah benar. Saya akan menjalankan command ```mvn clean package```. supaya 2 file tersebut menjadi jar. 
 
 Lalu, cek status jar apakah sudah sukses dibuat. Jika sudah cek folder udfgeo kembali dan cek folder target maka file .jar akan terlihat di dalam folder tersebut.
