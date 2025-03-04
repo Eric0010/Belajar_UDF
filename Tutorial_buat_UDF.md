@@ -1,4 +1,4 @@
-Pertama, buatlah 1 folder yang baru dengan command mkdir. Disini saya akan menamakan folder tersebut menjadi udfgeo.
+Pertama, buatlah 1 folder yang baru dengan command ```mkdir```. Disini saya akan menamakan folder tersebut menjadi udfgeo.
 
 ![image](https://github.com/user-attachments/assets/85f024a8-2f9a-48b0-aa61-79dc29467131)
 
