@@ -210,7 +210,7 @@ public class GeoLookupBatchUDF {
 }
 ```
 
-NOTE: Nama Package dan nama GroupId harus memiliki nama yang sama.
+NOTE: Nama Package di file .java dan nama GroupId di pom.xml harus memiliki nama yang sama.
 
 Setlah file tersebut masing - masing disimpan di dalam folder yang sudah benar. Saya akan menjalankan command ```mvn clean package```. supaya 2 file tersebut menjadi jar. 
 
