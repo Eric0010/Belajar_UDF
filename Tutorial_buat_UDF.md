@@ -16,7 +16,7 @@ Maka saya akan membuat folder di linux, seperti berikut:
 
 Jika hal ini tidak dilakukan dengan benar, maka ksqldb tidak akan membaca function yang akan kita masukan.
 
-Disini, saya akan membuat UDF suapaya mendapatkan informasi terkait dengan longtitude, latitude, kota, kabupaten dan lain - lain dari sebuah ip.
+Disini, saya akan membuat UDF supaya mendapatkan informasi terkait dengan longtitude, latitude, kota, kabupaten dan lain - lain dari sebuah ip.
 
 Berikut adalah file pom.xml dan file GeoLookupBatchUDF.java
 
@@ -210,7 +210,11 @@ public class GeoLookupBatchUDF {
 }
 ```
 
-NOTE: Nama Package di file .java dan nama GroupId di pom.xml harus memiliki nama yang sama.
+NOTE: 
+
+1. Pastikan juga versi Java antar file memiliki versi yang sama.
+
+2. Nama Package di file .java dan nama GroupId di pom.xml harus memiliki nama yang sama.
 
 Setlah file tersebut masing - masing disimpan di dalam folder yang sudah benar. Saya akan menjalankan command ```mvn clean package```. supaya 2 file tersebut menjadi jar. 
 
