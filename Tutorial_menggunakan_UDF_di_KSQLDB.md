@@ -78,6 +78,9 @@ Contoh Consumer Lag:
 
 ![WhatsApp Image 2025-03-03 at 09 29 00_1c741803](https://github.com/user-attachments/assets/3be1bbf0-20d2-4a29-aed3-eeeb767a2751)
 
+Jumlah pesan yang ada di consumer lag bergantung kepada seberapa banyak ip yang berada pada stream yang hanya berisikan ip saja dan seberapa banyak stream yang kedua melakukan consume informasi tentang ip.
+
+Gambar diatas menunjukan Consumer Lag ketika 1 juta ip sudah masuk ke stream yang pertama.
 
 Berikut adalah salah satu contoh dari message yang sudah terkirim:
 
